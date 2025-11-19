@@ -9,8 +9,8 @@ Proyecto de implementación y configuración de un sistema completo de gestión 
 Este proyecto consistió en la implementación integral de **GLPI (Gestión Libre de Parque Informático)** como solución de Help Desk y gestión de activos TI. El sistema fue configurado para centralizar la administración de tickets de soporte técnico, gestión de incidentes y seguimiento de activos informáticos.
 
 **Duración del Proyecto:** 3 meses  
-**Usuarios Activos:** 150+  
-**Tickets Procesados:** 500+ mensuales
+**Usuarios Activos:** 100+  
+**Tickets Procesados:** 200+ mensuales
 
 ---
 
@@ -36,8 +36,7 @@ Este proyecto consistió en la implementación integral de **GLPI (Gestión Libr
 | **Sistema Operativo** | Linux (Ubuntu 20.04 LTS) |
 | **Autenticación** | LDAP / Active Directory |
 | **Email** | SMTP Integration |
-| **Backups** | Veeam Backup & Replication |
-| **Monitoreo** | NAGIOS |
+
 
 ---
 
@@ -79,8 +78,7 @@ Este proyecto consistió en la implementación integral de **GLPI (Gestión Libr
 ### 6. **Integraciones**
 - **LDAP/AD:** Gestión centralizada de usuarios  
 - **Email:** Tickets creados por correo  
-- **NAGIOS:** Alertas automáticas  
-- **SQL:** Consultas personalizadas  
+- **MYSQL:** Consultas personalizadas  
 
 ---
 
@@ -130,7 +128,31 @@ Este proyecto consistió en la implementación integral de **GLPI (Gestión Libr
 
 ---
 
-## 📚 Documentación Incluida
 
-### Archivos Incluidos en el Repositorio
+## 🔧 Configuración Recomendada
 
+### Permisos de Carpetas
+```bash
+sudo chmod 755 /var/www/html/glpi
+sudo chmod 777 /var/www/html/glpi/files
+sudo chmod 777 /var/www/html/glpi/config
+
+### 📚 Backup Automático (Crontab)
+# Agregar a crontab
+0 2 * * * /home/admin/scripts/backup-glpi.sh
+
+🔐 Consideraciones de Seguridad
+
+✅ Implementar SSL/TLS (HTTPS obligatorio)
+✅ Restringir acceso externo al puerto 3306 (MySQL)
+✅ Cambiar todas las contraseñas por defecto
+✅ Encriptar todos los backups almacenados
+✅ Monitoreo regular del archivo de eventos/errores
+✅ Mantener GLPI y paquetes del servidor actualizados
+
+💡 Mejoras Futuras
+
+ ✅ Integración con chatbot para tickets automáticos
+ ✅ App móvil para técnicos de soporte
+ ✅ Integración con CRM
+ ✅ Dashboard en tiempo real con Power BI
