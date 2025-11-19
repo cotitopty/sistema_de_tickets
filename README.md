@@ -36,6 +36,7 @@ Este proyecto consistió en la implementación integral de **GLPI (Gestión Libr
 | **Sistema Operativo** | Linux (Ubuntu 20.04 LTS) |
 | **Autenticación** | LDAP / Active Directory |
 | **Email** | SMTP Integration |
+| **Inventario** | OCS Inventory |
 
 
 ---
@@ -152,7 +153,6 @@ sudo chmod 777 /var/www/html/glpi/config
 
 💡 Mejoras Futuras
 
- ✅ Integración con chatbot para tickets automáticos
  ✅ App móvil para técnicos de soporte
  ✅ Integración con CRM
  ✅ Dashboard en tiempo real con Power BI
