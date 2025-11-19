@@ -84,6 +84,53 @@ Este proyecto consistió en la implementación integral de **GLPI (Gestión Libr
 
 ---
 
-## 🚀 Proceso de Instalación y Configuración
+## 📊 Estructura de Datos Configurada
 
-### Prerequisitos
+### Categorías de Tickets
+- Acceso a Sistemas  
+- Hardware / Periféricos  
+- Software / Licencias  
+- Conectividad de Red  
+- Correo Electrónico  
+- Impresoras  
+- Otros  
+
+### Grupos de Técnicos
+- Soporte Nivel 1 (Help Desk)  
+- Soporte Nivel 2 (Especialistas)  
+- Administradores de Sistemas  
+- Equipo de Redes  
+
+### Niveles de SLA
+
+| Prioridad | Tiempo Respuesta | Tiempo Resolución |
+|-----------|------------------|-------------------|
+| **Crítica** | 15 min | 2 horas |
+| **Alta** | 1 hora | 8 horas |
+| **Media** | 4 horas | 24 horas |
+| **Baja** | 8 horas | 48 horas |
+
+---
+
+## 📈 Resultados y Métricas
+
+### Antes de la Implementación
+- ❌ Tickets administrados en múltiples archivos Excel  
+- ❌ Tiempo de respuesta promedio: **8 horas**  
+- ❌ Documentación desorganizada  
+- ❌ Sin trazabilidad ni auditoría de cambios  
+
+### Después de la Implementación
+- ✅ Centralización completa en GLPI  
+- ✅ Tiempo de respuesta mejorado a **45 minutos**  
+- ✅ Base de conocimiento funcional y alimentada  
+- ✅ Auditoría, trazabilidad y control total  
+- ✅ **92%** de satisfacción de usuarios  
+- ✅ Reducción del **35% de tickets repetitivos**  
+
+---
+
+## 📚 Documentación Incluida
+
+### Archivos Incluidos en el Repositorio
+
