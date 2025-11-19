@@ -44,43 +44,43 @@ Este proyecto consistió en la implementación integral de **GLPI (Gestión Libr
 ## 📦 Características Implementadas
 
 ### 1. **Gestión de Tickets**
-- Sistema de creación y seguimiento de tickets  
-- Categorización automática de incidentes  
+- Creación y seguimiento de tickets  
+- Categorización automática  
 - Asignación inteligente a técnicos  
-- Estados de ticket: Nuevo, Asignado, En Progreso, Resuelto, Cerrado  
-- Prioridades configurables (Crítica, Alta, Media, Baja)  
-- SLA y tiempos de respuesta definidos  
+- Estados: Nuevo, Asignado, En Progreso, Resuelto, Cerrado  
+- Prioridades: Crítica, Alta, Media, Baja  
+- SLA configurados  
 
 ### 2. **Automatización de Flujos**
-- Asignación automática según categoría  
-- Escalamiento al incumplir SLA  
+- Asignación automática por categoría  
+- Escalamiento automático por SLA  
 - Notificaciones por email  
-- Cierre automático tras inactividad  
+- Cierre automático por inactividad  
 
 ### 3. **Gestión de Activos**
 - Inventario completo de equipos  
-- Tracking de garantía  
-- Historial de cambios  
-- Ubicación física de activos  
+- Control de garantía y mantenimiento  
+- Historial de cada activo  
+- Ubicación física por departamento  
 
 ### 4. **Base de Conocimiento**
 - Wiki interna  
-- FAQ por categoría  
-- Buscador integrado  
-- Reducción de tickets repetitivos  
+- Artículos FAQ por categoría  
+- Búsqueda integrada  
+- Reducción de consultas repetitivas  
 
 ### 5. **Reportes y Análisis**
 - Dashboard con KPI  
-- Tickets por categoría/técnico  
-- MTTR (Tiempo medio de reparación)  
+- Tickets por técnico/categoría  
+- Análisis MTTR  
 - Satisfacción de usuarios  
-- Tendencias de incidentes  
+- Tendencias y repetitividad  
 
 ### 6. **Integraciones**
-- **LDAP/AD:** Sincronización de usuarios  
-- **Email:** Creación de tickets por correo  
+- **LDAP/AD:** Gestión centralizada de usuarios  
+- **Email:** Tickets creados por correo  
 - **NAGIOS:** Alertas automáticas  
-- **SQL:** Reportes personalizados  
+- **SQL:** Consultas personalizadas  
 
 ---
 
